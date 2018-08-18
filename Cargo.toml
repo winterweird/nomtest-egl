@@ -1,0 +1,7 @@
+[package]
+name = "nomtest"
+version = "0.1.0"
+authors = ["Vegard Ekblad Itland <Vegard.Itland@student.uib.no>"]
+
+[dependencies]
+nom = "4.0"
