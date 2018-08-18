@@ -1,36 +1,3 @@
-// Let's create a toy language: The Enthusiastic Greeting Language (EGL)
-//
-// The language has three words:
-// - "HI": This is a word that signifies the start of an expression.
-// - "{" and "}": MAY contain a single expression. When opened, must be closed.
-// - "!": This concludes an expression. Every expression started must be concluded.
-// 
-// Any number of whitespace can be inserted anywhere between words.
-//
-// Sample programs:
-//
-// ```
-// HI!
-// ```
-//
-// ```
-// HI    !
-// ```
-//
-// ```
-// HI
-//
-//     !
-// ```
-//
-// ```
-// HI
-// {
-//   HI   {   HI{} !   }!
-// }
-// !
-// ```
-
 #[macro_use]
 extern crate nom;
 
